@@ -1,1 +1,213 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T13:00:51.622Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 OPR/89.0.4447.64" version="20.2.2" etag="GDLUWftbO32hac7lJjuX" type="github"><diagram id="sPIk70jQrlHUL2haArS1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-01T13:16:02.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 OPR/89.0.4447.64" etag="R1W0s9Lj-2LY1WTQjZWF" version="20.2.2" type="github">
+  <diagram id="sPIk70jQrlHUL2haArS1" name="Page-1">
+    <mxGraphModel dx="2481" dy="1645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-2" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;send pre-processed Data&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-1">
+          <mxGeometry x="0.174" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-3" value="Forest Ministry" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/web-development-and-studio/512/118_forest_camping_jungle_tree_pines_camping_camp-128.png" vertex="1" parent="1">
+          <mxGeometry x="310" y="180" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="cs6-1JEtz_wyNW-ZtuaW-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="620" y="472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-5" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;got to see desired data&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-4">
+          <mxGeometry x="-0.241" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.062;entryY=0.193;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-7" target="cs6-1JEtz_wyNW-ZtuaW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-7" value="User Interface&amp;nbsp;" style="shape=mxgraph.cisco.misc.front_end_processor;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="120.5" width="120" height="249" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-9" target="cs6-1JEtz_wyNW-ZtuaW-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-9" value="Database" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="630" y="-70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-11" target="cs6-1JEtz_wyNW-ZtuaW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-11" value="Admin" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.admin_console" vertex="1" parent="1">
+          <mxGeometry x="498" y="80" width="50" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-13" value="Policy Makers" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.policy" vertex="1" parent="1">
+          <mxGeometry x="1020" y="233" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-14" value="Users" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.users;fillColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="440" width="66" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-15" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-64" y="210" width="211" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cs6-1JEtz_wyNW-ZtuaW-15" source="cs6-1JEtz_wyNW-ZtuaW-17" target="cs6-1JEtz_wyNW-ZtuaW-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-17" value="WMD" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-15">
+          <mxGeometry x="20" y="23" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cs6-1JEtz_wyNW-ZtuaW-15" source="cs6-1JEtz_wyNW-ZtuaW-19" target="cs6-1JEtz_wyNW-ZtuaW-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-19" value="WMD" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-15">
+          <mxGeometry x="70" y="-24" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cs6-1JEtz_wyNW-ZtuaW-15" source="cs6-1JEtz_wyNW-ZtuaW-21" target="cs6-1JEtz_wyNW-ZtuaW-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-21" value="WMD" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-15">
+          <mxGeometry y="73" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-22" value="" style="group" connectable="0" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-15">
+          <mxGeometry x="71" y="23" width="140" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/business-and-education-1/512/126_building_smart_city_technology_satellite_corporation_technology_smart-128.png;fillColor=#000000;" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-22">
+          <mxGeometry x="39" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-24" value="Research Organizations &lt;br&gt;and NGOs" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/buildings/Large_Building.svg;" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-22">
+          <mxGeometry y="8" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-25" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="7" y="20" width="140" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cs6-1JEtz_wyNW-ZtuaW-25" source="cs6-1JEtz_wyNW-ZtuaW-27" target="cs6-1JEtz_wyNW-ZtuaW-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-27" value="WMD" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-25">
+          <mxGeometry y="71" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cs6-1JEtz_wyNW-ZtuaW-25" source="cs6-1JEtz_wyNW-ZtuaW-29" target="cs6-1JEtz_wyNW-ZtuaW-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-29" value="WMD" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-25">
+          <mxGeometry x="43" width="30" height="30" as="geometry" />
+        </mxCell>
+        <object label="Weather Station" Workstation="" id="cs6-1JEtz_wyNW-ZtuaW-30">
+          <mxCell style="image;html=1;image=img/lib/clip_art/computers/Workstation_128x128.png" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-25">
+            <mxGeometry x="60" y="46" width="80" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-31" value="Weather monitoring Devices" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-170" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-33" target="cs6-1JEtz_wyNW-ZtuaW-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-33" value="Weather Monitoring &lt;br&gt;Devices(WMD)" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="1">
+          <mxGeometry x="158" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-34" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="60" y="408" width="138" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-35" value="City Corporation" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/33_Architecture_and_City_Buildings_Canada_Tower_Landmark-128.png;fillColor=#000000;" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-34">
+          <mxGeometry x="19.714285714285715" width="86.97540512226111" height="86.97540512226111" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-36" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-regular-vol-1/24/bx-buildings-128.png;fillColor=#000000;" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-34">
+          <mxGeometry y="42.38696808510638" width="46.20568397120121" height="46.20568397120121" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-37" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/software-engineering-and-video-gaming/512/501_Buildings_city_sensor_smart_urban_Hardware_Engineering_Internet-128.png;fillColor=#000000;" vertex="1" parent="cs6-1JEtz_wyNW-ZtuaW-34">
+          <mxGeometry x="76.81773399014779" y="30.281249999999996" width="61.15458172658984" height="61.15458172658984" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-39" target="cs6-1JEtz_wyNW-ZtuaW-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-39" value="WMD" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="1">
+          <mxGeometry x="90" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-41" target="cs6-1JEtz_wyNW-ZtuaW-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="94" y="461" />
+              <mxPoint x="94" y="469" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-41" value="WMD" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="1">
+          <mxGeometry x="10" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-43" target="cs6-1JEtz_wyNW-ZtuaW-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-43" value="WMD" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="473" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-52" target="cs6-1JEtz_wyNW-ZtuaW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="227" y="106" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-50" target="cs6-1JEtz_wyNW-ZtuaW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;entryX=0.108;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-48" target="cs6-1JEtz_wyNW-ZtuaW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280.54960658003256" y="468.8585408632948" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-47" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=#036897;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;verticalAlign=top;strokeColor=#ffffff;dashed=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="880" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-48" value="Sending&amp;nbsp; weather data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="449" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-37" target="cs6-1JEtz_wyNW-ZtuaW-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="316" as="targetPoint" />
+            <mxPoint x="197.97231571673774" y="468.9000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-50" value="Sending&amp;nbsp; weather data&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="263" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-23" target="cs6-1JEtz_wyNW-ZtuaW-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="126" y="273" as="sourcePoint" />
+            <mxPoint x="260" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-52" value="Sending&amp;nbsp; weather data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="96" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="cs6-1JEtz_wyNW-ZtuaW-30" target="cs6-1JEtz_wyNW-ZtuaW-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="186" as="targetPoint" />
+            <mxPoint x="147" y="106" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-54" value="get to see the data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="220" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-55" value="propose the changes&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="283" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6-1JEtz_wyNW-ZtuaW-56" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;input processed data in the database&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
