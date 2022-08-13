@@ -92,16 +92,13 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
-
-
-
-
     </style>
 </head>
 <body>
     <div class="background">
     </div>
-    <form>
+    <form action="" method="post">
+        {% csrf_token %}
         <h3>Air Quality Index</h3>
 
         <label for="username">Username</label>
