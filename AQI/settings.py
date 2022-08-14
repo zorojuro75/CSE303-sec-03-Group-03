@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'AQI.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'auth',
+        'USER': 'root',
+        'PASSWORD': 'poralekhakoreultayfelsi',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
