@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'authentication',
-    'dashboard',
+    'dashboard.apps.DashboardConfig',
 ]
 
 MIDDLEWARE = [
@@ -82,7 +82,7 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'poralekhakoreultayfelsi',
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': 3306,
     }
 }
 
