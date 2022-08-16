@@ -8,12 +8,12 @@
 </head>
 <body>
     <h1>dashboard</h1>
-    {% csrf_token %}
     {%block content%}
-    {% for member in members %}
-        <h3 name="block">{{ member.member_name }}</h3>
-        <h4>hello</h4>
-    {% endfor %}
+    <h3 method ="post">
+        {% csrf_token %}
+        {{ hello }}
+    </h3>
     {%endblock%}
+    <p>hello1</p>
 </body>
 </html>
