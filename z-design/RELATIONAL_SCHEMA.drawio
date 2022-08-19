@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T21:51:26.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.98" etag="dQmd1G6iN5zsxuDZ3UaI" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T21:52:41.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.98" etag="yAIDdtxL5Mpysno1-TuE" version="20.2.4" type="github">
   <diagram id="OU-aZMMqyZK8E2Q_70T6" name="Page-1">
     <mxGraphModel dx="1155" dy="1742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -251,7 +251,7 @@
           <mxGeometry x="240" y="440" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ll7ZZZQxQ9TElTHfW3kW-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="680" width="680" height="40" as="geometry" />
+          <mxGeometry x="80" y="680" width="960" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ll7ZZZQxQ9TElTHfW3kW-28" value="WEATHER_INFO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="680" width="160" height="40" as="geometry" />
@@ -307,8 +307,23 @@
         <mxCell id="Ll7ZZZQxQ9TElTHfW3kW-47" value="pm25" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="680" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ll7ZZZQxQ9TElTHfW3kW-48" value="rainPrecipitation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="680" width="120" height="40" as="geometry" />
+        <mxCell id="Ll7ZZZQxQ9TElTHfW3kW-48" value="rainPrec" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ll7ZZZQxQ9TElTHfW3kW-49" value="windSpeed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ll7ZZZQxQ9TElTHfW3kW-50" value="cloudCover" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ll7ZZZQxQ9TElTHfW3kW-51" value="relHumid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ll7ZZZQxQ9TElTHfW3kW-52" value="visibility" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ll7ZZZQxQ9TElTHfW3kW-53" value="mean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="680" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
