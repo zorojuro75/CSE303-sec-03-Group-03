@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T17:37:43.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.98" etag="oc55qiCuOtNkUsDq1Z6O" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T18:03:51.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.98" etag="0QmfidRS8BYjsi1ma8ou" version="20.2.5" type="github">
   <diagram id="OU-aZMMqyZK8E2Q_70T6" name="Relational Schema">
-    <mxGraphModel dx="1973" dy="2191" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1151" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -231,7 +231,7 @@
           <mxGeometry x="560" y="120" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ll7ZZZQxQ9TElTHfW3kW-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="360" width="1200" height="40" as="geometry" />
+          <mxGeometry x="400" y="360" width="1280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ll7ZZZQxQ9TElTHfW3kW-28" value="WEATHER_INFO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="360" width="160" height="40" as="geometry" />
@@ -376,8 +376,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1000" y="440" />
-              <mxPoint x="1650" y="440" />
-              <mxPoint x="1650" y="-140" />
+              <mxPoint x="1700" y="440" />
+              <mxPoint x="1700" y="-140" />
               <mxPoint x="580" y="-140" />
             </Array>
           </mxGeometry>
@@ -449,6 +449,23 @@
         </mxCell>
         <mxCell id="l0KC84qo_5yXulcjnEi0-23" value="stationOwner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="-120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0KC84qo_5yXulcjnEi0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.883;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l0KC84qo_5yXulcjnEi0-24" target="Ll7ZZZQxQ9TElTHfW3kW-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1640" y="420" />
+              <mxPoint x="631" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0KC84qo_5yXulcjnEi0-24" value="locID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l0KC84qo_5yXulcjnEi0-25" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1608.75" y="390" as="sourcePoint" />
+            <mxPoint x="1671.25" y="390" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
