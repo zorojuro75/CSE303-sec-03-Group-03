@@ -27,8 +27,8 @@ DROP TABLE IF EXISTS `city_corporation`;
 CREATE TABLE `city_corporation` (
   `corpID` varchar(10) NOT NULL,
   `corpName` text,
-  `minID` text,
-  `locID` text,
+  `minID` varchar(10) DEFAULT NULL,
+  `locID` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`corpID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -242,10 +242,11 @@ CREATE TABLE `weather_info` (
   `relHumid` text,
   `visibility` text,
   `mean` text,
-  `routeID` text,
-  `locID` text,
-  `stationID` text,
-  PRIMARY KEY (`wInfoID`)
+  `routeID` varchar(10) DEFAULT NULL,
+  `locID` varchar(10) DEFAULT NULL,
+  `stationID` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`wInfoID`),
+  KEY `routeFK_idx` (`routeID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -271,4 +272,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-08-23 21:20:10
+-- Dump completed on 2022-08-23 21:31:07
