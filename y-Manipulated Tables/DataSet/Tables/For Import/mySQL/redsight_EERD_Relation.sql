@@ -79,8 +79,8 @@ DROP TABLE IF EXISTS `location`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `location` (
   `locID` varchar(10) NOT NULL,
-  `latitude` text,
-  `longitude` text,
+  `latitude` double DEFAULT NULL,
+  `longitude` double DEFAULT NULL,
   `division` text,
   `country` text,
   PRIMARY KEY (`locID`)
@@ -267,16 +267,16 @@ DROP TABLE IF EXISTS `weather_info`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `weather_info` (
   `wInfoID` varchar(10) NOT NULL,
-  `date` text,
-  `time` text,
+  `date` date DEFAULT NULL,
+  `time` time DEFAULT NULL,
   `season` text,
-  `pm25` text,
-  `rainPrec` text,
-  `cloudCover` text,
-  `windSpeed` text,
-  `relHumid` text,
-  `visibility` text,
-  `mean` text,
+  `pm25` double DEFAULT NULL,
+  `rainPrec` double DEFAULT NULL,
+  `cloudCover` double DEFAULT NULL,
+  `windSpeed` double DEFAULT NULL,
+  `relHumid` double DEFAULT NULL,
+  `visibility` double DEFAULT NULL,
+  `mean` double DEFAULT NULL,
   `routeID` varchar(10) DEFAULT NULL,
   `locID` varchar(10) DEFAULT NULL,
   `stationID` varchar(10) DEFAULT NULL,
@@ -308,4 +308,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-08-24  0:12:25
+-- Dump completed on 2022-08-24  0:53:12
