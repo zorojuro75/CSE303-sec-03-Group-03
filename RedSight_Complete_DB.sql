@@ -58,7 +58,7 @@ CREATE TABLE `forest_ministry` (
   `locationID` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`minID`),
   KEY `minLoc_idx` (`locationID`),
-  CONSTRAINT `minLoc` FOREIGN KEY (`locationID`) REFERENCES `location` (`locID`) ON DELETE RESTRICT ON UPDATE CASCADE
+  CONSTRAINT `minLoc` FOREIGN KEY (`locationID`) REFERENCES `location` (`locID`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -113,7 +113,7 @@ CREATE TABLE `org_ministry` (
   PRIMARY KEY (`orgID`,`minID`),
   KEY `minOrg_idx` (`minID`),
   KEY `orgMin_idx` (`orgID`),
-  CONSTRAINT `minOrg` FOREIGN KEY (`minID`) REFERENCES `forest_ministry` (`minID`) ON DELETE RESTRICT ON UPDATE CASCADE,
+  CONSTRAINT `minOrg` FOREIGN KEY (`minID`) REFERENCES `forest_ministry` (`minID`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `orgMin` FOREIGN KEY (`orgID`) REFERENCES `organization` (`orgID`) ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -140,7 +140,7 @@ CREATE TABLE `org_route` (
   `routeID` varchar(10) NOT NULL,
   PRIMARY KEY (`orgID`,`routeID`),
   KEY `routeOrg_idx` (`routeID`) /*!80000 INVISIBLE */,
-  KEY `orgRoute` (`orgID`),
+  KEY `orgRoute_idx` (`orgID`),
   CONSTRAINT `orgRoute` FOREIGN KEY (`orgID`) REFERENCES `organization` (`orgID`) ON UPDATE CASCADE,
   CONSTRAINT `routeOrg` FOREIGN KEY (`routeID`) REFERENCES `route` (`routeID`) ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -219,7 +219,7 @@ CREATE TABLE `station` (
   `locID` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`stationID`),
   KEY `stationLoc_idx` (`locID`),
-  CONSTRAINT `stationLoc` FOREIGN KEY (`locID`) REFERENCES `location` (`locID`) ON DELETE RESTRICT ON UPDATE CASCADE
+  CONSTRAINT `stationLoc` FOREIGN KEY (`locID`) REFERENCES `location` (`locID`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -251,9 +251,9 @@ CREATE TABLE `user` (
   KEY `minUser_idx` (`minID`),
   KEY `orgUser_idx` (`orgID`),
   KEY `corpUser_idx` (`corpID`),
-  CONSTRAINT `corpUser` FOREIGN KEY (`corpID`) REFERENCES `city_corporation` (`corpID`) ON DELETE RESTRICT ON UPDATE CASCADE,
-  CONSTRAINT `minUser` FOREIGN KEY (`minID`) REFERENCES `forest_ministry` (`minID`) ON DELETE RESTRICT ON UPDATE CASCADE,
-  CONSTRAINT `orgUser` FOREIGN KEY (`orgID`) REFERENCES `organization` (`orgID`) ON DELETE RESTRICT ON UPDATE CASCADE
+  CONSTRAINT `corpUser` FOREIGN KEY (`corpID`) REFERENCES `city_corporation` (`corpID`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `minUser` FOREIGN KEY (`minID`) REFERENCES `forest_ministry` (`minID`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `orgUser` FOREIGN KEY (`orgID`) REFERENCES `organization` (`orgID`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -293,9 +293,9 @@ CREATE TABLE `weather_info` (
   KEY `stationInfo_idx` (`stationID`),
   KEY `locInfo_idx` (`locID`),
   KEY `routeIndo_idx` (`routeID`),
-  CONSTRAINT `locInfo` FOREIGN KEY (`locID`) REFERENCES `location` (`locID`) ON DELETE RESTRICT ON UPDATE CASCADE,
-  CONSTRAINT `routeIndo` FOREIGN KEY (`routeID`) REFERENCES `route` (`routeID`) ON DELETE RESTRICT ON UPDATE CASCADE,
-  CONSTRAINT `stationInfo` FOREIGN KEY (`stationID`) REFERENCES `station` (`stationID`) ON DELETE RESTRICT ON UPDATE CASCADE
+  CONSTRAINT `locInfo` FOREIGN KEY (`locID`) REFERENCES `location` (`locID`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `routeIndo` FOREIGN KEY (`routeID`) REFERENCES `route` (`routeID`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `stationInfo` FOREIGN KEY (`stationID`) REFERENCES `station` (`stationID`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
