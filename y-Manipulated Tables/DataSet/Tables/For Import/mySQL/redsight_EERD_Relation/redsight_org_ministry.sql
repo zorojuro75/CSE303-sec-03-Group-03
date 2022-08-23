@@ -40,11 +40,13 @@ CREATE TABLE `org_ministry` (
 -- Dumping data for table `org_ministry`
 --
 
+
 LOCK TABLES `org_ministry` WRITE;
 /*!40000 ALTER TABLE `org_ministry` DISABLE KEYS */;
+INSERT INTO `org_ministry` VALUES ('org1','fminBan',''),('org1','fminUK',''),('org1','fminUkr',''),('org1','fminUSA',''),('org2','fminBan',''),('org2','fminUK',''),('org2','fminUkr',''),('org2','fminUSA',''),('org3','fminBan',''),('org3','fminUK',''),('org3','fminUkr',''),('org3','fminUSA','');
 /*!40000 ALTER TABLE `org_ministry` ENABLE KEYS */;
 UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+/*!40000 ALTER TABLE `org_ministry` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
