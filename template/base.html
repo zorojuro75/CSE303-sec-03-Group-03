@@ -4,19 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Air Quality Index</title>
 </head>
 <body>
-    <div class="container flex">
        <div>
-        {% block navbar%}
+        {% block content%}
         {% endblock %}
        </div> 
        <div>
-        {% block diagram%}
+        {% block graph1%}
+        {% autoescape off%}
+            {{plot1 | safe}}
+        {% endautoescape %}
         {% endblock %}
        </div>
-    </div>
-    
+       <div>
+        {% block graph2%}
+        {% autoescape off%}
+            {{plot2 | safe}}
+        {% endautoescape %}
+        {% endblock %}
+       </div>
+       <div>
+        {% block graph3%}
+        {% autoescape off%}
+            {{plot3 | safe}}
+        {% endautoescape %}
+        {% endblock %}
+       </div>
 </body>
 </html>
