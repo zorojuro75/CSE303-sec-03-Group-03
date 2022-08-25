@@ -7,17 +7,16 @@ import plotly.express as px
 
 # Create your views here.
 def barChart(request):
-    data = pd.read_csv('D:\project\CSE303-sec-03-Group-03\\airQuality\data1.csv')
-    data['time'] = pd.to_datetime(data['time'])
-    x1 = data['time'].dt.year.unique()
-    dic = {}
-    for year in x1:
-        data_y = data[data['time'].dt.year == year]
-        pm25 = data_y.PM25.to_numpy()
-        dic[year] = pm25.mean()
-    x1 =list(dic.keys())
-    y1 = list(dic.values())
-    fig = px.bar(data, x=x1, y=y1)
+    mydb=mysql.connector.connect(host='localhost',user='root',password='inja',database='redsight')
+    mycursor=mydb.cursor()
+    mycursor.execute('select year(daily) as yyyy,avg(pm25) as pm from location as l inner join weather_info as w using(locID) group by year(daily)')
+    data =mycursor.fetchall()
+    x1 = []
+    y1 = []
+    for year, avgpm in data:
+        x1.append(year)
+        y1.append(avgpm)
+    fig = px.bar(data, x1, y1)
     fig.update_layout(
         title={
             'text': "PM-2.5 With Year",
