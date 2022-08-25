@@ -6,27 +6,28 @@ from plotly.offline import plot
 import plotly.express as px
 
 def lineChart(request):
-    data = pd.read_csv('D:\project\CSE303-sec-03-Group-03\\airQuality\data1.csv')
-    data['time'] = pd.to_datetime(data['time'])
-    data_year = data['time'].dt.year.unique()
-    x1 = data_year
-    data_div = data.Division.unique()
+    mydb=mysql.connector.connect(host='localhost',user='root',password='inja',database='redsight')
+    mycursor=mydb.cursor()
+    mycursor.execute('select division, year(daily), avg(pm25) from location inner join weather_info as w using(locID) group by division,year(daily) order by year(daily),division')
+    data = mycursor.fetchall()
     tracing = []
-    for div in data_div:
-        y1 = []
-        x1 = []
-        data_rang = data[data['Division'] == div]
-        for year in data_year:
-            data_years = data_rang[data_rang['time'].dt.year == year]
-            pm25 = data_years.PM25.to_numpy()
-            y1.append(pm25.mean())
-            x1.append(int(year))
-        trace = go.Scatter(
-                x=data_year,
-                y=y1,
-                mode='lines',
-                name = div
-            )
+    div = []
+    for divi, x, y in data:
+        if divi not in div and divi is not None:
+            div.append(divi)
+    for division in div:
+        x1=[]
+        y1=[]
+        for divi, x, y in data:
+            if(divi==division):
+                x1.append(x)
+                y1.append(y)
+                trace = go.Scatter(
+                    x=x1,
+                    y=y1,
+                    mode='lines',
+                    name = str(divi)
+                )
         tracing.append(trace)
         
     trace_data = [trace for trace in tracing ]

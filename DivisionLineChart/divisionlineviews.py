@@ -6,17 +6,17 @@ from plotly.offline import plot
 import plotly.express as px
 # Create your views here.
 def divisonLineChart(request):
-    data = pd.read_csv('D:\project\CSE303-sec-03-Group-03\\airQuality\data1.csv')
-    data_div = data.Division.unique()
-    dic = {}
-    for div in data_div:
-        data_rang = data[data['Division'] == div]
-        pm25 = data_rang.PM25.to_numpy()
-        dic[div] = pm25.mean()
-    x1 =list(dic.keys())
-    y1 = list(dic.values())
+    mydb=mysql.connector.connect(host='localhost',user='root',password='inja',database='redsight')
+    mycursor=mydb.cursor()
+    mycursor.execute('select division,avg(pm25) as pm from location as l inner join weather_info as w using(locID) group by division')
+    data =mycursor.fetchall()
+    x1 = []
+    y1 = []
+    for division, avgpm in data:
+        x1.append(division)
+        y1.append(avgpm)
     fig = go.Figure(go.Scatter(
-        x=x1,
+        x = x1,
         y = y1
     ))
     fig.update_layout(

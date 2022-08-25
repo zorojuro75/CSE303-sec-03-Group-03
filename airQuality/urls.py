@@ -15,13 +15,18 @@ Including another URLconf
 """
 from airQuality import views
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
 from DivisionLineChart import divisionlineviews
 from DivisionBarChart import divisionbarchartviews
 from yearlyComp import yearlyviews
+from SeasonBoxPlot import seasonview
+from StationBoxPlot import stationview
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('divisonlinechart/', divisionlineviews.divisonLineChart),
-    path('', divisionbarchartviews.barChart), #divisionbarchartviews/
-    path('yearlycomparison/', yearlyviews.lineChart),
+    path('', views.base),
+    path('divisonLineChart/', divisionlineviews.divisonLineChart),
+    path('barchart/', divisionbarchartviews.barChart), #divisionbarchartviews/
+    path('yearlycomp/', yearlyviews.lineChart),
+    path('boxPlotSeason/', seasonview.boxPlotSeason),
+    path('boxPlotStation/', stationview.boxPlotStation),
 ]
