@@ -7,7 +7,7 @@ import plotly.express as px
 # Create your views here.
 def boxPlotStation(request):
         fig = go.Figure()
-        data = pd.read_csv('data1.csv')
+        data = pd.read_csv('D:\project\CSE303-sec-03-Group-03\\airQuality\data1.csv')
         data_sta = data.Station.unique()
         data_sta.sort()
 
