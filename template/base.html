@@ -32,5 +32,19 @@
         {% endautoescape %}
         {% endblock %}
        </div>
+       <div>
+        {% block graph4%}
+        {% autoescape off%}
+            {{plot4 | safe}}
+        {% endautoescape %}
+        {% endblock %}
+       </div>
+       <div>
+        {% block graph5%}
+        {% autoescape off%}
+            {{plot5 | safe}}
+        {% endautoescape %}
+        {% endblock %}
+       </div>
 </body>
 </html>

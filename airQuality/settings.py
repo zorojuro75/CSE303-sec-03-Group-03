@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'DivisionLineChart',
     'DivisionBarChart',
     'yearlyComp',
+    'SeasonBoxPlot',
+    'StationBoxPlot',
 ]
 
 MIDDLEWARE = [
