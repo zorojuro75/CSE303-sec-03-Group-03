@@ -23,7 +23,8 @@ from SeasonBoxPlot import seasonview
 from StationBoxPlot import stationview
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', divisionlineviews.divisonLineChart),
+    path('', views.base),
+    path('divisonLineChart/', divisionlineviews.divisonLineChart),
     path('barchart/', divisionbarchartviews.barChart), #divisionbarchartviews/
     path('yearlycomp/', yearlyviews.lineChart),
     path('boxPlotSeason/', seasonview.boxPlotSeason),
