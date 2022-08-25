@@ -21,7 +21,7 @@ from DivisionBarChart import divisionbarchartviews
 from yearlyComp import yearlyviews
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('divisonlinechart/', divisionlineviews.divisonLineChart),
+    path('divisionlinechart/', divisionlineviews.divisonLineChart),
     path('', divisionbarchartviews.barChart), #divisionbarchartviews/
     path('yearlycomparison/', yearlyviews.lineChart),
 ]
