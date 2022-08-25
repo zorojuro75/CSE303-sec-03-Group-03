@@ -13,9 +13,15 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from airQuality import views
 from django.contrib import admin
-from django.urls import path
-
+from django.urls import path, include
+from DivisionLineChart import divisionlineviews
+from DivisionBarChart import divisionbarchartviews
+from yearlyComp import yearlyviews
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('divisonlinechart/', divisionlineviews.divisonLineChart),
+    path('', divisionbarchartviews.barChart), #divisionbarchartviews/
+    path('yearlycomparison/', yearlyviews.lineChart),
 ]
