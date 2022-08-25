@@ -8,7 +8,7 @@ import plotly.express as px
 # Create your views here.
 def boxPlotSeason(request):
         fig = go.Figure()
-        data = pd.read_csv('data1.csv')
+        data = pd.read_csv('E:\BDSM\CSE303-sec-03-Group-03\\airQuality\data1.csv')
         data_seas = data.Season.unique()
 
         for season in data_seas:

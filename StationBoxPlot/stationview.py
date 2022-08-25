@@ -6,18 +6,20 @@ from plotly.offline import plot
 import plotly.express as px
 # Create your views here.
 def boxPlotStation(request):
+    fig = go.Figure()
     mydb=mysql.connector.connect(host='localhost',user='root',password='inja',database='redsight')
     mycursor=mydb.cursor()
-    mycursor.execute('SELECT stationName,pm25 as pm25 from station inner join weather_info using(locID)')
-    data=mycursor.fetchall()
-    fig = go.Figure()
-    dataStation = []
-    for station in data:
+    mycursor.execute('SELECT stationName,pm25 as pm25 from station inner join weather_info using(locID) order by stationNo')
+    data = mycursor.fetchall()
+    dataStation =[]
+    for station, pm in data:
         if station not in dataStation:
             dataStation.append(station)
-        y1 = []
+    
+    for station in dataStation:
+        y1=[]
         for sta, pm in data:
-            if(sta==station):
+            if sta==station:
                 y1.append(pm)
         fig.add_trace(go.Box(y=y1, name=str(station)))
     fig.update_layout(
