@@ -279,7 +279,7 @@ DROP TABLE IF EXISTS `weather_info`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `weather_info` (
   `WInfoID` int NOT NULL AUTO_INCREMENT,
-  `daily` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `daily` timestamp NULL DEFAULT CURRENT_TIMESTAMP ,
   `season` text,
   `pm25` double DEFAULT NULL,
   `rainPrec` double DEFAULT NULL,
