@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'yearlyComp',
     'SeasonBoxPlot',
     'StationBoxPlot',
+    'form'
 ]
 
 MIDDLEWARE = [

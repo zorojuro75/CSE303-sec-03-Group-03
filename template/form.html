@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="flex items-center justify-center p-12">
+    <div class="mx-auto w-full max-w-[550px]">
+      <form action="" method="POST">
+        {%csrf_token%}
+
+        <div class="mb-5">
+          <label for="stationID" class="mb-3 block text-base font-medium text-[#07074D]"> Station ID </label>
+          <input type="text" name="stationID" id="stationID" placeholder="Station ID"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        
+        <div class="mb-5">
+          <label for="pm25" class="mb-3 block text-base font-medium text-[#07074D]"> PM 2.5</label>
+          <input type="text" name="pm25" id="pm25" placeholder="pm2.5"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div class="mb-5">
+          <label for="season" class="mb-3 block text-base font-medium text-[#07074D]"> Season </label>
+          <input type="text" name="season" id="season" placeholder="Season"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div class="mb-5">
+          <label for="rain" class="mb-3 block text-base font-medium text-[#07074D]"> Rain Precipitation </label>
+          <input type="text" name="" id="rain" placeholder="Rain Precipitation"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div class="mb-5">
+          <label for="humidity" class="mb-3 block text-base font-medium text-[#07074D]"> Relative Humidity </label>
+          <input type="text" name="" id="humidity" placeholder="Relative Humidity"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div class="mb-5">
+          <label for="cloud" class="mb-3 block text-base font-medium text-[#07074D]"> Cloud Cover </label>
+          <input type="text" name="" id="cloud" placeholder="Cloud Cover"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div class="mb-5">
+          <label for="wind" class="mb-3 block text-base font-medium text-[#07074D]"> Wind Speed </label>
+          <input type="text" name="" id="wind" placeholder="Wind Speed"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div class="mb-5">
+          <label for="visibility" class="mb-3 block text-base font-medium text-[#07074D]"> Visibility </label>
+          <input type="text" name="" id="visibility" placeholder="Visibility"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div>
+          <button
+            class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
