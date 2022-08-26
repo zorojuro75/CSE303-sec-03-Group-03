@@ -21,6 +21,7 @@ from DivisionBarChart import divisionbarchartviews
 from yearlyComp import yearlyviews
 from SeasonBoxPlot import seasonview
 from StationBoxPlot import stationview
+from form import formview
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.base),
@@ -29,4 +30,5 @@ urlpatterns = [
     path('yearlycomp/', yearlyviews.lineChart),
     path('boxPlotSeason/', seasonview.boxPlotSeason),
     path('boxPlotStation/', stationview.boxPlotStation),
+    path('form/',formview.forms),
 ]
