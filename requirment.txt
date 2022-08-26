@@ -1,0 +1,17 @@
+asgiref==3.5.2
+astroid==2.9.3
+colorama==0.4.4
+distlib==0.3.5
+Django==4.1
+filelock==3.8.0
+isort==5.10.1
+lazy-object-proxy==1.7.1
+mccabe==0.6.1
+mysql-connector-python==8.0.30
+platformdirs==2.4.1
+pylint==2.12.2
+sqlparse==0.4.2
+toml==0.10.2
+tzdata==2022.2
+virtualenv==20.16.3
+wrapt==1.13.3
