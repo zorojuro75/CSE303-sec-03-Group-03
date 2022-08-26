@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T16:48:20.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.104" etag="GKSR1vZim2TkSWCUA1g4" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-26T00:19:27.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.104" etag="_j07Zz-X2iyFsiMEhyRY" version="20.2.7" type="github">
   <diagram id="OU-aZMMqyZK8E2Q_70T6" name="Relational Schema">
-    <mxGraphModel dx="1394" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1381" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,8 +150,8 @@
             <Array as="points">
               <mxPoint x="860" y="-560" />
               <mxPoint x="860" y="-220" />
-              <mxPoint x="930" y="-220" />
-              <mxPoint x="930" y="80" />
+              <mxPoint x="970" y="-220" />
+              <mxPoint x="970" y="80" />
               <mxPoint x="620" y="80" />
             </Array>
           </mxGeometry>
