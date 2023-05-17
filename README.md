@@ -3,12 +3,12 @@
 ## Application - Weather Monitoring App
 Welcome to the CSE303 Weather Monitoring Application! This project was developed as part of the Database Management (CSE303) course. It is a full-stack web application that allows users to monitor weather data collected from weather stations and government facilities.
 
-![Screenshot (001)](Pictures/SELECT season,pm25 from weather_info order by season.png)
+![Screenshot (001)](./pictures/SELECT_season_pm2_from weather_info_order_by_season.png)
 
 ### Objectives 
 The main objective of this project is to provide a comprehensive weather monitoring solution. The application facilitates the input of weather data through an intuitive input form, which is accessible to weather stations and government facilities. The collected data is then stored and managed using a MySQL database. The application serves as a valuable resource for decision makers, weather monitoring facilities, and the general public.
 
-![Screenshot (002)](Pictures/Input Form.png)
+![Screenshot (002)](./pictures/InputForm.png)
 
 ### Features
 * User-friendly interface: The front-end of the application is built using HTML, CSS, and JavaScript, providing an intuitive and visually appealing user interface.
@@ -19,7 +19,7 @@ The main objective of this project is to provide a comprehensive weather monitor
 * Access for decision makers: Decision makers can access the application to view and analyze the weather data. This information can aid in making informed decisions related to various sectors affected by weather conditions.
 * Access for the general public: The application also caters to the general public by providing weather updates and forecasts. Users can access the latest weather information in their area through the application.
 
-![Screenshot (003)](Pictures/select year(daily) as yyyy,avg(pm25) as pm from location as l inner join weather_info as w using(locID) group by year(daily).png)
+![Screenshot (003)](./pictures/select_year_daily_as_yyyy_avg_pm25_as_pm_from_location_as_weather_info_as_w_using_locID_group_by_year_daily.png)
 
 ### Contributors
 
